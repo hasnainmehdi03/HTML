@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Website Book a Vacation</title>
+    </head>
+    <h1>Book Your Vacation</h1>
+    <form action="/submit_booking"method="post">
+        <label for ="name">Full Name:</label>
+        <input type="text"id="name" name="name"required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email"id="email"name="email"required><br><br>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="Phone Required"><br><br>
+
+        <label for ="destination">Destination:</label>
+        <input type="text_id=destination"name="destination"required><br><br>
+
+        <label for="check-in">Check-in Date:</label>
+        <input type="date" id="check-in" name="check-in"required><br><br>
+
+        <label for="check-out">Check-out Date:</label>
+        <input type="date" id="check-out" name="check-out"required><br><br>
+
+        <label for="adults">Number of Adults</label>
+        <input type="number id="adults" name="adults"min="1"required><br><br>
+
+        <label for="children">Number of Children:</label>
+        <input type="number"id="children"name="children"min="0"required><br><br>
+
+        <label for="message">Additional Message:</label>
+        <textarea id="message" name="message"rows="4"cols="50"></textarea><br><br>
+
+        <input type="submit"value="Submit Booking">
+    </form>
+</html>
